@@ -1,0 +1,53 @@
+name: chat
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_cache_manager: 3.3.1
+  flutter_svg: 2.0.10+1
+  fluttertoast: 8.2.4
+  lottie: 3.1.0
+  cached_network_image: 3.3.1
+
+  get: 4.6.6
+
+  shared_preferences: 2.2.2
+  url_launcher: 6.2.5
+  dio: 5.4.1
+  connectivity_plus: 2.3.8
+  intl: 0.18.1
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/flags/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 400
